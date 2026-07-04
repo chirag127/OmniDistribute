@@ -1,39 +1,21 @@
-Copyright (c) 2025-2026 Chirag Ramani (chirag127)
+MIT License
 
-This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+Copyright (c) 2026 Chirag Singhal
 
----------------------------------------------------------------------------
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-**TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION OF "OmniDistribute-Content-Publishing-Automation-Engine"
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-1.  **License Grant:** Subject to the terms of this License, the Licensor grants You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) license to:
-    *   **Reproduce and Share:** Make and display copies of the Work (the "OmniDistribute-Content-Publishing-Automation-Engine" software and its associated documentation) for non-commercial purposes only.
-    *   **Create Derivative Works:** Create and distribute derivative works based on the Work, provided that:
-        *   Your derivative works are also licensed under the terms of this License or a later version of this License.
-        *   You do not charge for these derivative works.
-        *   You attribute the original work to Chirag Ramani (chirag127) and link to the original repository: https://github.com/chirag127/OmniDistribute-Content-Publishing-Automation-Engine.
-
-2.  **Attribution:** Any redistribution of the Work or derivative works must include:
-    *   A prominent notice stating that the Work is licensed under CC BY-NC 4.0.
-    *   A link to the original repository: https://github.com/chirag127/OmniDistribute-Content-Publishing-Automation-Engine.
-    *   A link to the CC BY-NC 4.0 license deed: http://creativecommons.org/licenses/by-nc/4.0/.
-    *   A clear statement identifying the author(s) or licensor(s) as Chirag Ramani (chirag127).
-
-3.  **Non-Commercial Use:** This license strictly prohibits the use of the Work or derivative works for commercial purposes. Commercial use includes, but is not limited to, selling the software, using it as part of a paid service, or incorporating it into a product for which you charge customers. For commercial use, a separate license must be obtained from the licensor.
-
-4.  **No Warranty:** THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-5.  **Termination:** This License automatically terminates if you fail to comply with any of its terms. Upon termination, all rights granted to you under this License will cease immediately.
-
----------------------------------------------------------------------------
-
-**IN SUMMARY:** You are free to:
-
-*   **Share** — copy and redistribute the material in any medium or format.
-*   **Adapt** — remix, transform, and build upon the material.
-
-for **non-commercial purposes only**, provided you follow these terms:
-
-*   **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-*   **NonCommercial** — You may not use the material for commercial purposes.
-*   **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
