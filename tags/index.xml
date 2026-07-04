@@ -1,215 +1,220 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Chirag Personal Blog</title>
-    <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/</link>
-    <description>Recent content in Tags on Chirag Personal Blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 20:39:32 +0000</lastBuildDate>
-    <atom:link href="https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Banking</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/banking/</link>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/banking/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Credit Cards</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/credit-cards/</link>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/credit-cards/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Credit-Score</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/credit-score/</link>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/credit-score/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Fintech</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/fintech/</link>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/fintech/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>India</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/india/</link>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/india/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Personal-Finance</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/personal-finance/</link>
-      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/personal-finance/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Budgeting</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/budgeting/</link>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/budgeting/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Investing</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/investing/</link>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/investing/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Money Management</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/money-management/</link>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/money-management/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Saving</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/saving/</link>
-      <pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/saving/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>2025</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/2025/</link>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/2025/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Digital Payments</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/digital-payments/</link>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/digital-payments/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Privacy</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/privacy/</link>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/privacy/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Security</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/security/</link>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/security/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>UPI</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/upi/</link>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/upi/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Zero Balance Account</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/zero-balance-account/</link>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/zero-balance-account/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>AI Coding</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/ai-coding/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/ai-coding/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Apps</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/apps/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/apps/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cashback</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cashback/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cashback/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Chinese AI</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/chinese-ai/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/chinese-ai/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>CIBIL</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cibil/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cibil/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Cloud IDE</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cloud-ide/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cloud-ide/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Developer Productivity</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/developer-productivity/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/developer-productivity/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Experian</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/experian/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/experian/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Free Credit Report</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/free-credit-report/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/free-credit-report/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Free Tools</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/free-tools/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/free-tools/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Mobile Recharge</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/mobile-recharge/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/mobile-recharge/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Open Source</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/open-source/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/open-source/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Rewards</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/rewards/</link>
-      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/rewards/</guid>
-      <description></description>
-    </item>
-  </channel>
+	<channel>
+		<title>Tags on Chirag Personal Blog</title>
+		<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/</link>
+		<description>Recent content in Tags on Chirag Personal Blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 04 Jul 2026 09:18:15 +0530</lastBuildDate>
+		
+			<atom:link href="https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Banking</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/banking/</link>
+				<pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/banking/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Credit Cards</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/credit-cards/</link>
+				<pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/credit-cards/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Credit-Score</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/credit-score/</link>
+				<pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/credit-score/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Fintech</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/fintech/</link>
+				<pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/fintech/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>India</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/india/</link>
+				<pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/india/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Personal Finance</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/personal-finance/</link>
+				<pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/personal-finance/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Budgeting</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/budgeting/</link>
+				<pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/budgeting/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Investing</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/investing/</link>
+				<pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/investing/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Money Management</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/money-management/</link>
+				<pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/money-management/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Saving</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/saving/</link>
+				<pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/saving/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>2025</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/2025/</link>
+				<pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/2025/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Digital Payments</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/digital-payments/</link>
+				<pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/digital-payments/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Privacy</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/privacy/</link>
+				<pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/privacy/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Security</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/security/</link>
+				<pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/security/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>UPI</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/upi/</link>
+				<pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/upi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Zero Balance Account</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/zero-balance-account/</link>
+				<pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/zero-balance-account/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>AI Coding</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/ai-coding/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/ai-coding/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Apps</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/apps/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/apps/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cashback</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cashback/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cashback/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Chinese AI</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/chinese-ai/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/chinese-ai/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>CIBIL</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cibil/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cibil/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Cloud IDE</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cloud-ide/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/cloud-ide/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Developer Productivity</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/developer-productivity/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/developer-productivity/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Experian</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/experian/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/experian/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Free Credit Report</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/free-credit-report/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/free-credit-report/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Free Tools</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/free-tools/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/free-tools/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Mobile Recharge</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/mobile-recharge/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/mobile-recharge/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Open Source</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/open-source/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/open-source/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Rewards</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/rewards/</link>
+				<pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/rewards/</guid>
+				<description></description>
+			</item>
+	</channel>
 </rss>

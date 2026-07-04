@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Open Source on Chirag Personal Blog</title>
-    <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/open-source/</link>
-    <description>Recent content in Open Source on Chirag Personal Blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Apr 2026 20:39:32 +0000</lastBuildDate>
-    <atom:link href="https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>The Ultimate Guide: 100&#43; Best Free AI Coding Agents &amp; Platforms (November 2025)</title>
-      <link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/posts/ultimate-free-ai-coding-agents-2025/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/posts/ultimate-free-ai-coding-agents-2025/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Last Updated:&lt;/strong&gt; November 21, 2025&#xA;&lt;strong&gt;Verified Status:&lt;/strong&gt; ✅ All 100+ tools checked for active free tiers.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s be real: paying $20/month for &lt;em&gt;every&lt;/em&gt; AI tool is unsustainable. You need a coding assistant, a debugger, a web builder, and a data agent. That adds up to $100/month fast.&lt;/p&gt;&#xA;&lt;p&gt;But here&amp;rsquo;s the secret the SaaS companies don&amp;rsquo;t want you to know: &lt;strong&gt;You can get a production-grade AI coding stack for $0.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have spent the last week testing, verifying, and ranking over &lt;strong&gt;100 AI coding agents and platforms&lt;/strong&gt;. These aren&amp;rsquo;t just &amp;ldquo;free trials&amp;rdquo; that ask for a credit card and charge you after 7 days. These are tools with &lt;strong&gt;generous, perpetual free tiers&lt;/strong&gt;, &lt;strong&gt;open-source models&lt;/strong&gt;, or &lt;strong&gt;cloud-based credits&lt;/strong&gt; that you can rotate for practically unlimited usage.&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>Open Source on Chirag Personal Blog</title>
+		<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/open-source/</link>
+		<description>Recent content in Open Source on Chirag Personal Blog</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 04 Jul 2026 09:18:15 +0530</lastBuildDate>
+		
+			<atom:link href="https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>The Ultimate Guide: 100&#43; Best Free AI Coding Agents &amp; Platforms (November 2025)</title>
+				<link>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/posts/ultimate-free-ai-coding-agents-2025/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://chirag127.github.io/Omni-Publisher-Content-Ecosystem/posts/ultimate-free-ai-coding-agents-2025/</guid>
+				<description>&lt;p&gt;&lt;strong&gt;Last Updated:&lt;/strong&gt; November 21, 2025&#xA;&lt;strong&gt;Verified Status:&lt;/strong&gt; ✅ All 100+ tools checked for active free tiers.&lt;/p&gt;&#xA;&lt;p&gt;Let&amp;rsquo;s be real: paying $20/month for &lt;em&gt;every&lt;/em&gt; AI tool is unsustainable. You need a coding assistant, a debugger, a web builder, and a data agent. That adds up to $100/month fast.&lt;/p&gt;&#xA;&lt;p&gt;But here&amp;rsquo;s the secret the SaaS companies don&amp;rsquo;t want you to know: &lt;strong&gt;You can get a production-grade AI coding stack for $0.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;I have spent the last week testing, verifying, and ranking over &lt;strong&gt;100 AI coding agents and platforms&lt;/strong&gt;. These aren&amp;rsquo;t just &amp;ldquo;free trials&amp;rdquo; that ask for a credit card and charge you after 7 days. These are tools with &lt;strong&gt;generous, perpetual free tiers&lt;/strong&gt;, &lt;strong&gt;open-source models&lt;/strong&gt;, or &lt;strong&gt;cloud-based credits&lt;/strong&gt; that you can rotate for practically unlimited usage.&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
