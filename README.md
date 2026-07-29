@@ -7,7 +7,7 @@
 
 Resilient, idempotent, multi-channel content distribution engine in TypeScript. Write a Markdown article once; publish it to 30+ platforms and generate a fast static blog from the same source.
 
-**Live site:** https://OmniDistribute.oriz.in
+**Live site:** https://omnidistribute.oriz.in
 
 Star this repo if it helps.
 
