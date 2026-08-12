@@ -39,6 +39,7 @@ import { VKAdapter } from "./adapters/vk.js";
 import { WeiboAdapter } from "./adapters/weibo.js";
 import { WixAdapter } from "./adapters/wix.js";
 import { WordPressAdapter } from "./adapters/wordpress.js";
+import { getAstroBlogPosts } from "./sources/astro-blogs.js";
 import type { Adapter, Post, PublishResult } from "./types.js";
 import { calculateHash } from "./utils/hash.js";
 import { logger, logPublishFailure, logPublishSuccess } from "./utils/logger.js";
@@ -105,10 +106,18 @@ async function main() {
   const dryRun = args.includes("--dry-run");
   const force = args.includes("--force"); // Re-publish even if already published
 
-  logger.info("Starting Omni-Publisher...", { dryRun, force });
+  const sourceArg = args.find((a) => a.startsWith("--source="))?.split("=")[1];
+  const source = sourceArg || process.env.SOURCE || "posts";
 
-  const postsDir = path.join(process.cwd(), "content", "posts");
-  const posts = await getPosts(postsDir);
+  logger.info("Starting Omni-Publisher...", { dryRun, force, source });
+
+  let posts: Post[];
+  if (source === "astro-blogs") {
+    posts = await getAstroBlogPosts();
+  } else {
+    const postsDir = path.join(process.cwd(), "content", "posts");
+    posts = await getPosts(postsDir);
+  }
   const state = await loadState();
 
   // Filter enabled adapters
@@ -142,8 +151,17 @@ async function main() {
 
     logger.info(`Processing post: ${post.title} (${post.slug})`);
 
+    // Per-post platform routing (blog-network mode). undefined = all enabled.
+    const postAdapters = post.platforms
+      ? enabledAdapters.filter((a) => post.platforms!.includes(a.name))
+      : enabledAdapters;
+    if (post.platforms && postAdapters.length === 0) {
+      logger.warn(`No enabled adapters match routing for ${post.slug}; skipping.`);
+      continue;
+    }
+
     // STEP 1: Publish to Blogger FIRST (primary platform)
-    const bloggerAdapter = enabledAdapters.find((a) => a.name === "blogger");
+    const bloggerAdapter = postAdapters.find((a) => a.name === "blogger");
     const contentHash = calculateHash(post.content);
 
     if (bloggerAdapter && !dryRun) {
@@ -173,22 +191,26 @@ async function main() {
               await saveState(state);
             } else {
               logPublishFailure("blogger", post.slug!, result.error);
-              post.publishedUrl = currentState.url; // Fallback to existing URL
+              if (!post.canonicalUrl) post.publishedUrl = currentState.url; // Fallback to existing URL
             }
           } catch (error: any) {
             logPublishFailure("blogger", post.slug!, error);
-            post.publishedUrl = currentState.url;
+            if (!post.canonicalUrl) post.publishedUrl = currentState.url;
           }
         } else {
           logger.info(`Post ${post.slug} already up-to-date on Blogger, using existing URL`);
-          post.publishedUrl = currentState.url;
+          if (!post.canonicalUrl) post.publishedUrl = currentState.url;
         }
       } else {
         logger.info(`Publishing to Blogger first...`);
         try {
           const bloggerResult = await bloggerAdapter.publish(post);
           if (bloggerResult.success && bloggerResult.url) {
-            post.publishedUrl = bloggerResult.url;
+            // Preserve origin canonical (blog-network mode) — Blogger is a
+            // cross-post there, not the origin, so keep SEO credit on oriz.in.
+            if (!post.canonicalUrl) {
+              post.publishedUrl = bloggerResult.url;
+            }
             logPublishSuccess("blogger", post.slug!, bloggerResult.url);
             updatePostState(
               state,
@@ -216,7 +238,7 @@ async function main() {
     }
 
     // STEP 2: Publish to all OTHER adapters (in parallel) with Blogger URL available
-    const otherAdapters = enabledAdapters.filter((a) => a.name !== "blogger");
+    const otherAdapters = postAdapters.filter((a) => a.name !== "blogger");
 
     const publishPromises = otherAdapters.map(async (adapter) => {
       const currentState = getPostState(state, post.slug!, adapter.name);

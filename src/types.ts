@@ -8,6 +8,8 @@ export interface Post {
   coverImage?: string;
   frontmatter: Record<string, any>;
   publishedUrl?: string; // URL from primary publishing platform (Blogger)
+  canonicalUrl?: string; // Origin-site URL to attribute SEO credit to (blog-network mode)
+  platforms?: string[]; // Adapter names this post routes to; undefined = all enabled
 }
 
 export interface PostState {

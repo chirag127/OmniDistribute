@@ -44,6 +44,21 @@ pnpm verify-links    # validate published links
 
 Only platforms whose credentials are present in `.env` are targeted; the rest are skipped. Re-running is safe — already-published posts are recorded in `.postmap.json` and not re-posted.
 
+## Blog-network mode
+
+Ingest the oriz.in blog network — 24 sibling Astro blogs at `../oriz-blog-<niche>/` (each deploys to `<niche>-blog.oriz.in`) — instead of `content/posts/`:
+
+```bash
+pnpm start -- --source=astro-blogs      # or SOURCE=astro-blogs pnpm start
+```
+
+- **Scan** — reads `../oriz-blog-*/src/content/blog/*.{md,mdx}` (root overridable via `BLOG_NETWORK_ROOT`). Missing/empty/draft repos are skipped silently, so it is safe while blogs are still being created.
+- **Canonical** — every cross-post sets `canonical_url` back to the origin `https://<niche>-blog.oriz.in/blog/<slug>/`, so the oriz.in blog keeps SEO credit. Blogger (no native canonical field) gets an injected `<link rel="canonical">` + source link.
+- **Per-niche routing** — `tech`/`ai`/`business`/`marketing`/`remote-work` → dev.to + Hashnode + Medium + Blogger; all other niches → Blogger + Medium + Telegraph + Mastodon + Bluesky + Telegram. Override per niche with `BLOG_ROUTE_<NICHE>=devto,medium,...` (e.g. `BLOG_ROUTE_REMOTE_WORK`). Config map lives in `src/sources/astro-blogs.ts`.
+- **Idempotent** — state key is `<niche>/<slug>` (1:1 with the canonical URL) so identical slugs across blogs never collide in `.postmap.json`.
+
+The default `content/posts/` source is unchanged.
+
 ## Adding a platform
 
 Add `src/adapters/<name>.ts` implementing the adapter interface in `src/types.ts`, wire it into `src/publish.ts`, and document its env var in `.env.example`.

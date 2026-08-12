@@ -3,6 +3,18 @@ import type { Adapter, Post, PublishResult } from "../types.js";
 import { logger } from "../utils/logger.js";
 import { markdownToHtml } from "../utils/markdown.js";
 
+/**
+ * Blogger has no native canonical field. When the post declares an origin
+ * canonical (blog-network mode), inject a rel=canonical <link> so search
+ * engines credit the origin oriz.in blog, and a visible source link.
+ */
+function withCanonical(html: string, canonicalUrl?: string): string {
+  if (!canonicalUrl) return html;
+  const link = `<link rel="canonical" href="${canonicalUrl}" />`;
+  const source = `<p><em>Originally published at <a href="${canonicalUrl}" rel="canonical">${canonicalUrl}</a></em></p>`;
+  return `${link}\n${html}\n${source}`;
+}
+
 export class BloggerAdapter implements Adapter {
   name = "blogger";
   enabled = true;
@@ -45,7 +57,7 @@ export class BloggerAdapter implements Adapter {
         blogId: process.env.BLOGGER_BLOG_ID,
         requestBody: {
           title: post.title,
-          content: markdownToHtml(post.content),
+          content: withCanonical(markdownToHtml(post.content), post.canonicalUrl),
           labels: post.tags,
         },
       });
@@ -89,7 +101,7 @@ export class BloggerAdapter implements Adapter {
         postId: postId,
         requestBody: {
           title: post.title,
-          content: markdownToHtml(post.content),
+          content: withCanonical(markdownToHtml(post.content), post.canonicalUrl),
           labels: post.tags,
         },
       });
