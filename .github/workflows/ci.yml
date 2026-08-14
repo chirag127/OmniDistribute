@@ -1,76 +1,38 @@
-name: OmniDistribute CI Pipeline
+name: OmniDistribute CI
 
 on: [push, pull_request]
 
 permissions:
   contents: read
-  packages: write
 
 jobs:
-  build_and_test:
-    name: Build, Lint, & Test (Node.js/TypeScript)
-    # Context indicates a TypeScript/Node.js project based on the topic list and typical cross-posting engines.
+  test:
+    name: Lint, Test & Build (Node.js/TypeScript)
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Node.js Environment
+      - name: Set up pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # Node 20 LTS is standard for new TypeScript tooling
-          cache: 'npm'
+          node-version: '22'
+          cache: 'pnpm'
 
-      - name: Install Dependencies (uv/npm)
-        run: npm ci
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
-      - name: Run Linter & Formatter (Biome)
-        # Assuming Biome is the mandated 2025+ linter/formatter standard for TS projects
-        run: npx @biomejs/biome check --error-on-warnings . 
+      - name: Lint (Biome)
+        run: pnpm lint
 
-      - name: Run Unit Tests (Vitest)
-        run: npx vitest:test --coverage
+      - name: Run tests (Vitest)
+        run: pnpm test
 
-      - name: Archive Code Coverage Report
-        uses: codecov/codecov-action@v4
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./coverage/lcov.info
-          flags: unit
-
-      - name: Build Application Artifact
-        run: npm run build
-
-      - name: Upload Build Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: omnidistribute-build
-          path: ./dist
-          retention-days: 7
-
-  e2e_smoke_test:
-    name: End-to-End Smoke Test (Playwright)
-    needs: [build_and_test]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download Build Artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: omnidistribute-build
-          path: ./dist
-
-      - name: Set up Node.js Environment
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install E2E Dependencies
-        run: npm ci
-
-      - name: Run End-to-End Tests (Playwright)
-        # Assuming Playwright is standard for E2E testing
-        run: npx playwright test --project=chromium
-        env:
-          CI: true
+      - name: Build
+        run: pnpm build

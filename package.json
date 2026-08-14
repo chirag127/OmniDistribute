@@ -16,7 +16,9 @@
     "verify-links": "tsx src/verify-links.ts",
     "lint": "biome check src",
     "format": "biome format --write src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
   },
   "keywords": [
     "publisher",
@@ -47,8 +49,11 @@
     "@types/node": "^24.10.1",
     "@types/oauth": "^0.9.4",
     "@types/simple-oauth2": "^5.0.7",
+    "@vitest/coverage-v8": "^4.1.10",
     "ts-node": "^10.9.2",
     "tsx": "^4.19.1",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vite": "^7.0.0",
+    "vitest": "^4.1.10"
   }
 }
