@@ -50,7 +50,7 @@ jobs:
                       console.log(`Created post at ${filePath}`);
 
             - name: Commit Post
-              uses: stefanzweifel/git-auto-commit-action@v5
+              uses: stefanzweifel/git-auto-commit-action@v7
               with:
                   commit_message: "feat: create post from issue #${{ github.event.issue.number }}"
                   file_pattern: content/posts/*.md
