@@ -120,7 +120,7 @@ jobs:
                   EDGEONE_TOKEN: ${{ secrets.EDGEONE_TOKEN }}
 
             - name: Commit State Changes
-              uses: stefanzweifel/git-auto-commit-action@v5
+              uses: stefanzweifel/git-auto-commit-action@v7
               with:
                   commit_message: "chore: update publish state [skip ci]"
                   file_pattern: .postmap.json
